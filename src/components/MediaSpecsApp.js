@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
-import Header from './Header'
-import MediaSpecs from './MediaSpecs'
+// import Header from './Header'
+// import MediaSpecs from './MediaSpecs'
+import AdForm from './AdForm'
 
 class MediaSpecsApp extends Component {
   render() {
     return (
       <div>
-        <Header />
-        <MediaSpecs />
+        <AdForm />
       </div>
     )
   }
