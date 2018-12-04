@@ -1,4 +1,71 @@
 .browse-project {
-  height: calc(100vh - 200px);
+  // height: calc(100vh - 200px);
   min-height: 800px;
+}
+
+
+.iphone {
+  width: 507px;
+  height: auto;
+  position: relative;
+  margin: 14rem 0;
+  img {
+    width: 100%;
+  }
+  .iphone-screen {
+    position: absolute;
+    border: none;
+    top: 14.9%;
+    left: 7.3%;
+    width: 85.1%;
+    height: 72.4%;
+    background: #e7e7e7;
+  }
+  .details-box {
+    flex-grow: 1;
+    height: 600px;
+  }
+}
+
+.grey-shape {
+  background: #f4f4f4;
+  width: 880px;
+  height: 1300px;
+  position: absolute;
+  top: 0;
+  left: -200px;
+  z-index: -10;
+  transform: skewX(20deg);
+}
+
+.details-container {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.details-box {
+  margin-left: 60px;
+  h1 {
+    margin-bottom: 20px;
+  }
+  h2 {
+    color: $brandYellow;
+    margin: 20px 0 8px;
+  }
+}
+
+ul {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  list-style-position: inside;
+}
+
+a {
+  color: #333;
+}
+
+.qr-code {
+  width: 120px;
 }
