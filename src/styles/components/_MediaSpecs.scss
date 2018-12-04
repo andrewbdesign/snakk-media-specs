@@ -1,11 +1,31 @@
 .media-specs {
-  height: calc(100vh - 200px);
-  min-height: 800px;
+  // height: calc(100vh - 200px);
+  // min-height: 800px;
+  display: flex;
 }
 
-table {
-  table-layout: fixed;
+h3 {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px 0 5px;
+  font-weight: 700;
 }
-th {
-  text-align: left;
+
+.side-menu {
+  background: #f4f4f4;
+  width: 320px;
+  padding: 4rem 30px;
+}
+hr {
+  margin: 30px 0;
+}
+
+.main-section {
+  padding: 10rem 0;
+  margin-left: 35px;
+
+}
+
+h2 {
+  margin: 80px 0px 30px;
 }
