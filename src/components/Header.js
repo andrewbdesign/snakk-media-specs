@@ -1,18 +1,27 @@
 import React from 'react'
+import logo from '../img/logo.svg'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import MediaSpecs from './MediaSpecs'
+import Home from './Home'
 
 const Header = () => (
-  <div className="container">
-    <h1>Snakk Media Specs</h1>
-    <a href="/">Media specs</a>
-    <a href="/">Mobile Banner</a>
-    <a href="/">Mobile Banner Expandable</a>
-    <a href="/">Mobile Interstitial</a>
-    <a href="/">Mobile Carousel</a>
-    <a href="/">Mobile Video</a>
-    <a href="/">Mobile Game Build</a>
-    <a href="/">Mobile Functionality Build</a>
-    <a href="/">Tablet Unit</a>
-  </div>
+  <Router>
+    <div>
+      <div className="header">
+        <div className="container">
+          <Link to="/">
+            <img className="logo" src={logo} alt="snakk media" />
+          </Link>
+          <Link to="/media-specs">Media Specs</Link>
+          <Link to="/media-specs">Browse Projects</Link>
+        </div>
+        
+      </div>
+      <Route exact path="/" component={Home} />
+      <Route path="/media-specs" component={MediaSpecs} />
+      
+    </div>
+  </Router>
 )
 
 export default Header

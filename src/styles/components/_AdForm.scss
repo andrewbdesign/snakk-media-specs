@@ -1,0 +1,59 @@
+.ad-form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 4rem;
+  border: 1px solid #f4f4f4;
+}
+
+input {
+  width: 100%;
+  padding: 12px 8px;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  background: #f4f4f4;
+  height: 37px;
+  margin-bottom: 16px;
+}
+
+label {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  font-size: 16px;
+  color: #777;
+  top: 28px;
+  left: 8px;
+  display: inline-block;
+}
+
+textarea {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  padding: 9px 7px;
+  background: #f4f4f4;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 9px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 10px;
+  background: #000;
+  color: #fff;
+  border: none;
+}
+
+#qr-code {
+  display: none;
+}
+
+.qr-btn {
+  width: 100%;
+  height: 37px;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
 html {
   font-size: 10px;
 }
@@ -13,7 +15,7 @@ html {
 }
 
 h1, h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
 
@@ -26,7 +28,7 @@ h2 {
 }
 
 p {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: $m-size;
   line-height: 1.5;
 }
