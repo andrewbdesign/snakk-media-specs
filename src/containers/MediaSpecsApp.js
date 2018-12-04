@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
 
-// import Header from './Header'
+import Header from '../components/Header'
 // import MediaSpecs from './MediaSpecs'
-import AdForm from './AdForm'
+// import AdForm from './AdForm'
+import Footer from '../components/Footer'
 
 class MediaSpecsApp extends Component {
   render() {
     return (
       <div>
-        <AdForm />
+        <Header />
+        <Footer />
       </div>
     )
   }

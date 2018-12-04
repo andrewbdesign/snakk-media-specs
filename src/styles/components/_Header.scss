@@ -1,0 +1,30 @@
+.header {
+  background: #000;
+  height: 50px;
+  .container {
+    position: relative;
+    top: 11px;
+    display: flex;
+    justify-content: space-between;
+    a:first-child {
+      flex-grow: 1;
+    }
+    a {
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.5rem;
+      cursor: pointer;
+      line-height: 25px;
+      margin-right: 10px;
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+    .logo {
+      width: 150px;
+      height: auto;
+    }
+  }
+}
